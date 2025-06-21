@@ -1,0 +1,45 @@
+---
+import Section from "./Section.astro";
+import { Image } from "astro:assets";
+import type { SkillsProps } from "@types";
+
+interface Props {
+    skills: SkillsProps[];
+}
+
+const { skills } = Astro.props;
+---
+
+<Section text="Skills & Tools" href="skills">
+    <div class="horizontal-skills-wrapper overflow-x-auto px-6 py-5">
+        <ul class="flex gap-6">
+            {
+                skills.map(({ linkPreview, image, name, description }) => (
+                    <li class="relative w-60 flex-none rounded-2xl border border-neutral/20 bg-[#1c232d]/85 p-4 before:absolute before:inset-0 before:rounded-2xl before:bg-[url('/raja.png')] before:bg-[length:128px] before:bg-repeat before:opacity-[5%] before:content-['']">
+                        {/* Title and Image with link just like in Projects */}
+                        <a
+                            href={linkPreview}
+                            target="_blank"
+                            class="after:relative after:bottom-[-5px] after:content-[url(/external.svg)]"
+                        >
+                            <Image
+                                src={image}
+                                alt={name}
+                                width="100"
+                                height="100"
+                                class="mb-4 rounded-full border border-gray-500 p-1 transition-opacity group-hover:opacity-80"
+                            />
+
+                            <h4 class="mb-2 text-2xl font-semibold text-primary transition-colors group-hover:text-blue-500">
+                                {name}
+                            </h4>
+                        </a>
+
+                        {/* Description outside of the link */}
+                        <p class="mt-2 text-gray-500">{description}</p>
+                    </li>
+                ))
+            }
+        </ul>
+    </div>
+</Section>
