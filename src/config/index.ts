@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "I’m Prathviraj, a Software Developer at Digiprima Technologies, focusing on Frontend Development. I bring creative designs to life with clean, functional code — and after hours, I enjoy developing my own side projects.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/profile_prathvi_small.jpg",
   navLinks: [
     { text: "Skills", href: "#skills" },
     { text: "Experience", href: "#experience" },
@@ -15,7 +15,7 @@ export const SITE_CONFIG: SiteConfig = {
   ],
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/prathviraj-chouhan-b15644257/" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
+    { text: "Github", href: "https://github.com/prathviraj1608" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -128,21 +128,21 @@ export const SITE_CONTENT: SiteContent = {
       name: "AlgoSparks",
       summary: "A trading automation platform enabling traders to execute strategies seamlessly through third-party broker integrations. Clients canselect brokers and trade with custom strategies via an intuitive user interface.",
       linkPreview: "https://sparks.algoview.in/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/prathviraj1608",
       image: "/algo-sparks.png",
     },
     {
       name: "Pearl Streets",
       summary: "Pearl Streets connects users with professionals offering a range of services, from food and travel to relaxation, art, and more — with roles for Super Admin, merchants, and customers to keep everything running smoothly.",
       linkPreview: "http://23.23.88.239:7002/reels",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/prathviraj1608",
       image: "/pearl-streets-user.png",
     },
     {
       name: "Labrador AI",
       summary: "Labrador AI is a digital transformation platform for small and medium-sized businesses — especially restaurants — offering websites, digital ordering, SMS marketing, VOIP, POS systems, and easy integration with tools like DoorDash and Google Maps.",
       linkPreview: "https://www.labrador.ai/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/prathviraj1608",
       image: "/labradorAI.png",
     },
   ],
@@ -150,7 +150,7 @@ export const SITE_CONTENT: SiteContent = {
     description: `
       Hi, I’m Prathviraj, Results-oriented Frontend Developer with 2+ years of experience in designing and developing dynamic, interactive, and responsive user interfaces using React.js, Next.js, and modern frontend technologies. Skilled in optimizing application performance and integrating RESTful APIs to enable seamless functionality across platforms. Collaborative team player with a strong ability to work alongside cross-functional stakeholders to deliver high-caliber UI solutions that align with business goals. Passionate about writing clean, maintainable code, following industry best practices, and continually enhancing technical skills to keep up with evolving technologies and contribute to innovative and scalable digital products.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/prathvi_big_profile.jpg",
   },
 };
 
