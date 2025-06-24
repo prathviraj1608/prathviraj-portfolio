@@ -125,6 +125,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
+      name: "ProteanPlus.ai",
+      summary: "ProteanPlus is a Enterprise-Grade Virtual Assistants to Transform Your Business.",
+      linkPreview: "https://proteanplus.ai/",
+      linkSource: "https://github.com/prathviraj1608",
+      image: "/proteanplus.png",
+    },
+    {
       name: "AlgoSparks",
       summary: "A trading automation platform enabling traders to execute strategies seamlessly through third-party broker integrations. Clients canselect brokers and trade with custom strategies via an intuitive user interface.",
       linkPreview: "https://sparks.algoview.in/",
